@@ -19,7 +19,7 @@ constructor() {
   this.hidratar(transferencia)
   this.listaTransferencia.push(transferencia)
  }
-
+ //testeteste
  private hidratar(transferencia: any) {
    transferencia.data = new Date()
  }
