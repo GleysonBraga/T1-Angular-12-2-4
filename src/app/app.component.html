@@ -1,3 +1,10 @@
+<!--Add o componente "nova transferencia" no html app component, que é o nosso principal.
+    colocando o trecho "(aoTransferir)="transferir($event)" se espera que o evento apareça na tela porque a propriedade "$event" foi transmitida
+    para o metodo componente-->
+
+<!--Alternativa correta! Não é obrigatório,
+    mas sempre que haja a necessidade de propagação de valores a variável $event deve ser passada como parâmetro para o método em questão.-->
+
 <app-nova-transferencia (aoTransferir)="transferir($event)"></app-nova-transferencia>
 
 <app-extrato [transferencias]="transferencias"></app-extrato>

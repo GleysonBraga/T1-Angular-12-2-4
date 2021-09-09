@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ExtratoComponent implements OnInit {
 
+  //"@Input" importa tranferencias de outro componente
   @Input() transferencias: any[] = []
 
   constructor() { }
