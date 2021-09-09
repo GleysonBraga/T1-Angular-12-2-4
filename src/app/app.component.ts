@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'gulugulu';
+
+  transferir($event:any){
+    console.log($event)
+
+  }
 }
