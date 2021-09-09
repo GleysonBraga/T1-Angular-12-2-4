@@ -7,9 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'gulugulu';
+  transferencia: any
 
   transferir($event:any){
     console.log($event)
+    this.transferencia = $event
+
+
 
   }
 }
