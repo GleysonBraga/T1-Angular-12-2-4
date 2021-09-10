@@ -28,8 +28,7 @@ export class NovaTransferenciaComponent{
     this.service.adicionar(valorEmitir).subscribe(resultado => {
       console.log(resultado)
       this.limparCampos()
-    },
-    error => console.error(error))
+    }, error => console.error(error))
   }
 
   limparCampos(){

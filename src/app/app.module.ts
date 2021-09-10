@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing-module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NovaTransferenciaComponent } from './new-transferencia/nova-transferencia.componet';
 import { DEFAULT_CURRENCY_CODE, LOCALE_ID, NgModule } from '@angular/core';
@@ -16,12 +17,13 @@ registerLocaleData(localePt, 'pt')
   declarations: [
     AppComponent,
     NovaTransferenciaComponent,
-    ExtratoComponent
+    ExtratoComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule,
   ],
 
   //localiza o codigo em pt-br
