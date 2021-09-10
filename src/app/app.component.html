@@ -5,4 +5,11 @@
 <!--Alternativa correta! Não é obrigatório,
     mas sempre que haja a necessidade de propagação de valores a variável $event deve ser passada como parâmetro para o método em questão.-->
 
-<router-outlet></router-outlet>
+<header>
+  <a routerLink="extrato">Bytebank</a>
+  <a routerLink="nova-transferencia" routerLinkActive="ativo">Nova Transferência</a>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
